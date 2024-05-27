@@ -4,14 +4,12 @@
   text-decoration: none;
 }
 body {
-  display: grid;
   grid-template-columns: 1fr;
   grid-template-areas:
     "header"
     "aside"
     "main"
     "footer";
-  width: 100vw;
 }
 header {
   grid-area: header;
